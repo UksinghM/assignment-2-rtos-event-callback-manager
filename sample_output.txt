@@ -1,0 +1,37 @@
+Callback registered for PAYMENT_RECEIVED
+Callback registered for PAYMENT_SUCCESS
+Callback registered for PAYMENT_FAILED
+Callback registered for NETWORK_CONNECTED
+Callback registered for NETWORK_DISCONNECTED
+Callback registered for LOW_BATTERY
+Event NETWORK_CONNECTED queued
+Event PAYMENT_RECEIVED queued
+Event PAYMENT_SUCCESS queued
+Event PAYMENT_FAILED queued
+Event LOW_BATTERY queued
+Queue count: 5/10
+Queued events:
+NETWORK_CONNECTED | 0
+PAYMENT_RECEIVED | 500
+PAYMENT_SUCCESS | 500
+PAYMENT_FAILED | 200
+LOW_BATTERY | 0
+[EVENT] NETWORK_CONNECTED
+[NETWORK] Connected
+
+[EVENT] PAYMENT_RECEIVED
+[PAYMENT] Received: Rs. 500
+
+[EVENT] PAYMENT_SUCCESS
+[PAYMENT] Success: Rs. 500
+[AUDIO] Playing: Payment Successful
+
+[EVENT] PAYMENT_FAILED
+[PAYMENT] Failed: Rs. 200
+[AUDIO] Playing: Payment Failed
+
+[EVENT] LOW_BATTERY
+[WARNING] Low Battery
+
+Queue empty
+Queue count: 0/10
